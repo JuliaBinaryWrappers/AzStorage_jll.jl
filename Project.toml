@@ -1,0 +1,12 @@
+name = "AzStorage_jll"
+uuid = "00c928b4-b5f3-54d8-b38d-afd4635c4ad2"
+version = "0.1.0+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+LibCURL_jll = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
+CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.0"
