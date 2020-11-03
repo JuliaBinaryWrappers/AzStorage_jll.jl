@@ -3,55 +3,19 @@ export libAzStorage
 
 using CompilerSupportLibraries_jll
 using LibCURL_jll
-## Global variables
-PATH = ""
-LIBPATH = ""
-LIBPATH_env = "PATH"
-LIBPATH_default = ""
-
-# Relative path to `libAzStorage`
-const libAzStorage_splitpath = ["bin", "libAzStorage.dll"]
-
-# This will be filled out by __init__() for all products, as it must be done at runtime
-libAzStorage_path = ""
-
-# libAzStorage-specific global declaration
-# This will be filled out by __init__()
-libAzStorage_handle = C_NULL
-
-# This must be `const` so that we can use it with `ccall()`
-const libAzStorage = "libAzStorage.dll"
-
-
-# Inform that the wrapper is available for this platform
-wrapper_available = true
-
-"""
-Open all libraries
-"""
+using LibSSH2_jll
+using MbedTLS_jll
+using nghttp2_jll
+using Zlib_jll
+JLLWrappers.@generate_wrapper_header("AzStorage")
+JLLWrappers.@declare_library_product(libAzStorage, "libAzStorage.dll")
 function __init__()
-    # This either calls `@artifact_str()`, or returns a constant string if we're overridden.
-    global artifact_dir = find_artifact_dir()
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, LibCURL_jll, LibSSH2_jll, MbedTLS_jll, nghttp2_jll, Zlib_jll)
+    JLLWrappers.@init_library_product(
+        libAzStorage,
+        "bin\\libAzStorage.dll",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
 
-    global PATH_list, LIBPATH_list
-    # Initialize PATH and LIBPATH environment variable listings
-    # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
-    # then append them to our own.
-    foreach(p -> append!(PATH_list, p), (CompilerSupportLibraries_jll.PATH_list, LibCURL_jll.PATH_list,))
-    foreach(p -> append!(LIBPATH_list, p), (CompilerSupportLibraries_jll.LIBPATH_list, LibCURL_jll.LIBPATH_list,))
-
-    global libAzStorage_path = normpath(joinpath(artifact_dir, libAzStorage_splitpath...))
-
-    # Manually `dlopen()` this right now so that future invocations
-    # of `ccall` with its `SONAME` will find this path immediately.
-    global libAzStorage_handle = dlopen(libAzStorage_path, RTLD_LAZY | RTLD_DEEPBIND)
-    push!(LIBPATH_list, dirname(libAzStorage_path))
-
-    # Filter out duplicate and empty entries in our PATH and LIBPATH entries
-    filter!(!isempty, unique!(PATH_list))
-    filter!(!isempty, unique!(LIBPATH_list))
-    global PATH = join(PATH_list, ';')
-    global LIBPATH = join(vcat(LIBPATH_list, [Sys.BINDIR, joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)]), ';')
-
-    
+    JLLWrappers.@generate_init_footer()
 end  # __init__()
