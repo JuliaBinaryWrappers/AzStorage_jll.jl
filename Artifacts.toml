@@ -1,115 +1,115 @@
 [[AzStorage]]
 arch = "aarch64"
-git-tree-sha1 = "7fc2c61ce8285dba17e144cdee9876b5170f4370"
+git-tree-sha1 = "ae8c0862c93cc5bb9069dc20a3cd032eb25318c9"
 libc = "glibc"
 os = "linux"
 
     [[AzStorage.download]]
-    sha256 = "af2b421a758f1c490fe09734c2e8d7a1101ecf6b9fad02f7b9334e0d6a9bc9e9"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "076ebe5c96c944cde00f7423e5c827b63894d8f45ddec98e9834181825d49fae"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.aarch64-linux-gnu.tar.gz"
 [[AzStorage]]
 arch = "aarch64"
-git-tree-sha1 = "ffb8ca3fbc074488c6da65a661308c7e6495a172"
+git-tree-sha1 = "37409feb1ba92c03a4b0e23d6d2446b7f1b508e0"
 libc = "musl"
 os = "linux"
 
     [[AzStorage.download]]
-    sha256 = "aefc8b86317d97f2c3e15534acb3725ab2ef3446d2ecb02070c439944f649a04"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.aarch64-linux-musl.tar.gz"
+    sha256 = "dd53edb003ed770379431151ff460167200fec0cc4eca43981609a344f7bed38"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.aarch64-linux-musl.tar.gz"
 [[AzStorage]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "d66d96cbddf7d233183c45b5805495ca70ce54c6"
+git-tree-sha1 = "5e0608b7abe5360988be457beb730023becc032e"
 libc = "glibc"
 os = "linux"
 
     [[AzStorage.download]]
-    sha256 = "2c1d90ae5f72d716894c6f47e592729e136113f84c3747338fd3876f297860d9"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "cec7413cc34a992d7976645cc97ae373fa84d4a1259e5dd8712e7428793ec02f"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.armv7l-linux-gnueabihf.tar.gz"
 [[AzStorage]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "5acbea467e9ef3ab20181113143c8085d534666d"
+git-tree-sha1 = "788f0625507ae07e6ebc6c2b9122762383e616bb"
 libc = "musl"
 os = "linux"
 
     [[AzStorage.download]]
-    sha256 = "30103305918573d6a7ec5f3867ad244aa58b20d4695d11d1a31b50e881a190e3"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "d0750e3db4f814c6a38c345c7ac1fdec7f649a5e312e3743aac91aca87fe492a"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.armv7l-linux-musleabihf.tar.gz"
 [[AzStorage]]
 arch = "i686"
-git-tree-sha1 = "fbc76f309d55606fbe5ac66407222edc9b7ea6ac"
+git-tree-sha1 = "01d89e37879642489b34b5b1d3e5f3debaa6265d"
 libc = "glibc"
 os = "linux"
 
     [[AzStorage.download]]
-    sha256 = "ab1d203b472b4246bcdc5478ad47868dc005b11aa3bec1c6e103c5129bed6736"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.i686-linux-gnu.tar.gz"
+    sha256 = "7093046904530db3d7334b0f1253d9a855c29a294b342700de8b5a839d5f0950"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.i686-linux-gnu.tar.gz"
 [[AzStorage]]
 arch = "i686"
-git-tree-sha1 = "22042b0736e363477f78efe68872d5def5acc959"
+git-tree-sha1 = "2c48715645d7516561bdda3b23951f00b38a8297"
 libc = "musl"
 os = "linux"
 
     [[AzStorage.download]]
-    sha256 = "2051f383fb932ebbe932f32713f51c3547b0c6e032c186db4648123c199b52f4"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.i686-linux-musl.tar.gz"
+    sha256 = "5b19c843d0df091c8d0c42b362f7196c75619c008880175d247ba594878737af"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.i686-linux-musl.tar.gz"
 [[AzStorage]]
 arch = "i686"
-git-tree-sha1 = "9daf3288740c006935ab6530f14b2f9d6b31b3c7"
+git-tree-sha1 = "d4625ea0898a98e1ef44a0a5ecbae60bf04630f4"
 os = "windows"
 
     [[AzStorage.download]]
-    sha256 = "1b82e50b198e9eda13a917a60f8f09c2f0dc9a9f430660998fb60a933e32d6ca"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.i686-w64-mingw32.tar.gz"
+    sha256 = "6d0cdefb3a0598cecc590305d5030c7e24cedae55f394012e7ede53492fb6b2d"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.i686-w64-mingw32.tar.gz"
 [[AzStorage]]
 arch = "powerpc64le"
-git-tree-sha1 = "561496027cbdc3f25a94e09e9aee1c3f56728ca8"
+git-tree-sha1 = "90ef17d8642e9cb91546f8b92e328faf42f2c6cd"
 libc = "glibc"
 os = "linux"
 
     [[AzStorage.download]]
-    sha256 = "4ea8daac62d17787235dc00b93d08ffef58c356be9d455e87e4fc65f3e8c8920"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "600e57c213faf650b718bddc79ae915093a99934c754c82586e3cd429cf00d41"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.powerpc64le-linux-gnu.tar.gz"
 [[AzStorage]]
 arch = "x86_64"
-git-tree-sha1 = "1ab88427dc7110b470e4632813f30e99745a5b52"
+git-tree-sha1 = "2b15078419dd1e129cca5ed0ad6a9318ecbd7627"
 os = "macos"
 
     [[AzStorage.download]]
-    sha256 = "e57f28f283218a790d8ced23be53ee8251ec8c746f73e9cff92343f4e4d99c67"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "41abafe2f2c01e9ec8eaa4c72758555c25d3af913614a19a0a347b69b814f96b"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.x86_64-apple-darwin.tar.gz"
 [[AzStorage]]
 arch = "x86_64"
-git-tree-sha1 = "a7640de6ad9e47b83a997166e730acf876b9cde7"
+git-tree-sha1 = "7e93b49864a1a38ea562b3e91899a291e40b6b76"
 libc = "glibc"
 os = "linux"
 
     [[AzStorage.download]]
-    sha256 = "011912727ad9db6c5180259cb75c40e6076a24a50b3dab3bbe76550f6b7afa96"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "5947789fef10197d48ae6a6072b48d8b70f08013604f7e2c31c7572a1056a4d8"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.x86_64-linux-gnu.tar.gz"
 [[AzStorage]]
 arch = "x86_64"
-git-tree-sha1 = "1bf2153ac043cd29d3b3b6ddd092e0e138c2abd1"
+git-tree-sha1 = "f2b78c846b027074d367bc47064aedf8b55f6c9e"
 libc = "musl"
 os = "linux"
 
     [[AzStorage.download]]
-    sha256 = "bc5ed5bd04b46630a49b0d745e7d210c410cc25bc907f076950282452094db7f"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.x86_64-linux-musl.tar.gz"
+    sha256 = "80cb857073b36a6c821618f3981c5f333f97980fae95b0768aa9025fc5aa824d"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.x86_64-linux-musl.tar.gz"
 [[AzStorage]]
 arch = "x86_64"
-git-tree-sha1 = "a902c10ac6c2af997f5c5b56dcccf39678f50b18"
+git-tree-sha1 = "98f0344cc5a4a8a44e532040788ef56585d1e36f"
 os = "freebsd"
 
     [[AzStorage.download]]
-    sha256 = "1ce0d998a7386e943031af976b1df1a4215437abb2518a7c17d77cddc6535aa0"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "2d476284a9723f4da1c2dc4c8756b57b678e3c0d45d8f951e85b0601586e30f8"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.x86_64-unknown-freebsd.tar.gz"
 [[AzStorage]]
 arch = "x86_64"
-git-tree-sha1 = "ba8c6e20d44873e6d2ec09a6d2dd69ffccc97fb4"
+git-tree-sha1 = "3183394362a15890d3c8aa0da3ff7cdecc9ea338"
 os = "windows"
 
     [[AzStorage.download]]
-    sha256 = "f81152d618f9691f43060b700d7a5f722defd60c97e627f9fbbb8c079ff3f571"
-    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+0/AzStorage.v0.2.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "111d4281fb88c22625862132acb53c7f451f5de3370571996b97f9894a8d0780"
+    url = "https://github.com/JuliaBinaryWrappers/AzStorage_jll.jl/releases/download/AzStorage-v0.2.0+1/AzStorage.v0.2.0.x86_64-w64-mingw32.tar.gz"
