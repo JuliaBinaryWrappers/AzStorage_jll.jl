@@ -4,19 +4,19 @@ export AzStorage_h, libAzStorage
 using LLVMOpenMP_jll
 using LibCURL_jll
 JLLWrappers.@generate_wrapper_header("AzStorage")
-JLLWrappers.@declare_file_product(AzStorage_h)
 JLLWrappers.@declare_library_product(libAzStorage, "@rpath/libAzStorage.dylib")
+JLLWrappers.@declare_file_product(AzStorage_h)
 function __init__()
     JLLWrappers.@generate_init_header(LLVMOpenMP_jll, LibCURL_jll)
-    JLLWrappers.@init_file_product(
-        AzStorage_h,
-        "include/AzStorage.h",
-    )
-
     JLLWrappers.@init_library_product(
         libAzStorage,
         "lib/libAzStorage.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_file_product(
+        AzStorage_h,
+        "include/AzStorage.h",
     )
 
     JLLWrappers.@generate_init_footer()
